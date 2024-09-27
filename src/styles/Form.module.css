@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  background: #fdfeff;
+  padding: 1.5rem;
+  color: #022b41;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.button {
+  margin-bottom: 1.4rem;
+  border: solid 2px #022b41;
+  background-color: transparent;
+  border-radius: 55px;
+  padding: 0.5rem 1rem;
+  width: 13rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #022b41;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.inputs {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.input {
+  border: 2px solid #cecece;
+  border-radius: 7px;
+  padding: 1rem;
+  color: #022b41;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.textArea {
+  margin-top: 0.5rem;
+  width: 100%;
+  border: 2px solid #cecece;
+  padding: 1rem;
+  border-radius: 7px;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 10rem;
+  margin-bottom: 0.5rem;  
+  resize: vertical;
+}
+
+.input::placeholder,
+.textArea::placeholder {
+  color: #022b41;
+}
+
+.input:focus{
+    border-color: #0396ff;
+}
+
+.submitButton {
+  border: 2px solid #022b41;
+  color: #022b41;
+  border-radius: 7px;
+  background: transparent;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.submitButton:hover{
+    background-color: #022b41;
+  color: #fdfeff;
+}

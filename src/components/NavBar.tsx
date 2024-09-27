@@ -1,11 +1,12 @@
 import Link from "next/link";
 import style from "../styles/NavBar.module.css";
+
 function NavBar() {
   return (
     <>
       <nav className={style.container}>
         <div className={style.navContainer}>
-          <div className={style.logo}>B</div>
+          <Link href={"/"} className={style.logo}>B</Link>
           <hr className={style.divisor} />
           <ul className={style.navBar}>
             <li>
