@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  width: 100%;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navBar {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-weight: 800;
+  align-items: center;
+}
+
+.navBar li:first-child {
+  font-size: 2.8rem;
+  width: 2.5rem;
+}
+
+.divisor {
+  margin-left: -5px;
+  width: 1px;
+  height: 10px;
+}
