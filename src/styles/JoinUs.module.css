@@ -1,16 +1,26 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #fdfeff;
-  width: 80%;
-  margin-left: 10px;
+  width: 50%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
 }
 
 .button {
-  margin-top: 7rem;
   margin-bottom: 1.4rem;
   border: solid 2px #fdfeff7c;
   background-color: transparent;
   border-radius: 55px;
   padding: 0.5rem 1rem;
+  width: fit-content;
   color: #fdfeff;
   font-size: 0.8rem;
   font-weight: 600;
@@ -28,6 +38,7 @@
   background-color: #fdfeff;
   border-radius: 55px;
   padding: 1rem 1.5rem; 
+  width: fit-content;
   color: #022b41;
 }
 
@@ -36,7 +47,6 @@
 }
 
 .h1 {
-  font-size: 3.2rem;
   margin-bottom: 8rem;
 }
 
@@ -55,4 +65,43 @@
 
 .p {
   font-size: 1.4rem;
+}
+
+@media only screen and (min-width: 300px) {
+  .container{
+  width: 100%;
+  height: 90vh;
+}
+
+.info{
+  width: 80%;
+}
+.h1{
+  font-size: 2.8rem;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  .container{
+  width: 100%;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+      width: 100%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container{
+      flex-direction: row;
+  }
+  .info{
+    width: 60%;
+  }
+  .h1{
+  font-size: 3.2rem;
+  }
+  
 }

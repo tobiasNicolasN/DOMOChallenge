@@ -1,23 +1,30 @@
 .container {
+  width: 50%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("../assets/images/Office.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .form {
-  margin-top: 4rem;
   display: flex;
   flex-direction: column;
+  max-height: 80%;
   background: #fdfeff;
   padding: 1.5rem;
   color: #022b41;
 }
 
-.title{
-    font-size: 2rem;
+.title {
+  font-size: 2rem; /* Tamaño base */
 }
 
 .button {
+  margin-top: 1rem;
   margin-bottom: 1.4rem;
   border: solid 2px #022b41;
   background-color: transparent;
@@ -33,7 +40,7 @@
 
 .inputs {
   display: flex;
-  gap: 0.8rem;
+  gap: 0.5rem;
   margin-top: 1.5rem;
 }
 
@@ -41,6 +48,7 @@
   border: 2px solid #cecece;
   border-radius: 7px;
   padding: 1rem;
+  width: 100%;
   color: #022b41;
   font-size: 1rem;
   font-weight: 600;
@@ -55,7 +63,8 @@
   font-size: 1rem;
   font-weight: 600;
   height: 10rem;
-  margin-bottom: 0.5rem;  
+  min-width: 10rem;
+  margin-bottom: 0.5rem;
   resize: vertical;
 }
 
@@ -64,8 +73,8 @@
   color: #022b41;
 }
 
-.input:focus{
-    border-color: #0396ff;
+.input:focus {
+  border-color: #0396ff;
 }
 
 .submitButton {
@@ -78,9 +87,89 @@
   padding: 1rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  margin-bottom: 1rem;
 }
 
-.submitButton:hover{
-    background-color: #022b41;
+.submitButton:hover {
+  background-color: #022b41;
   color: #fdfeff;
+}
+
+/* Ajustes responsivos */
+@media only screen and (min-width: 300px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 1.4rem; /* Disminuye el tamaño en pantallas pequeñas */
+  }
+
+  .form {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 80%;
+  }
+
+  .inputs{
+    flex-direction: column;
+  }
+
+  .input, .textArea, .submitButton {
+    font-size: 0.9rem; /* Reduce ligeramente el tamaño de las fuentes en móviles */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 1.8rem; /* Aumenta el tamaño de la fuente en pantallas medianas */
+  }
+
+  .input, .textArea, .submitButton {
+    font-size: 1rem; /* Ajuste adecuado para tabletas */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 2rem; /* Tamaño base adecuado para pantallas más grandes */
+  }
+
+
+
+  .input, .textArea, .submitButton {
+    font-size: 1.1rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .title {
+    font-size: 2.2rem; /* Aumenta el tamaño de la fuente en pantallas grandes */
+  }
+
+  .button{
+  font-size: 0.8rem;
+  }
+
+  .input, .textArea, .submitButton {
+    font-size: 1.2rem; /* Aumenta ligeramente el tamaño en pantallas grandes */
+  }
+
+  .form{
+    width: 60%;
+  }
 }

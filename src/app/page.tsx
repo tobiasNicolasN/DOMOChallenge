@@ -1,6 +1,7 @@
 import NavBar from "@/components/NavBar";
 import styles from "./page.module.css";
 import HomeSection from "@/components/HomeSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <HomeSection/>
+        <Footer/>
       </main>
     </div>
   );

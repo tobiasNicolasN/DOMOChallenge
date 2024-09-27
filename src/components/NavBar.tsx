@@ -2,11 +2,20 @@ import Link from "next/link";
 import style from "../styles/NavBar.module.css";
 
 function NavBar() {
+  enum tabs {
+    Home,
+    About,
+    Pages,
+    Packages,
+    Contact,
+  }
   return (
     <>
       <nav className={style.container}>
         <div className={style.navContainer}>
-          <Link href={"/"} className={style.logo}>B</Link>
+          <Link href={"/"} className={style.logo}>
+            B
+          </Link>
           <hr className={style.divisor} />
           <ul className={style.navBar}>
             <li>
@@ -52,7 +61,8 @@ function NavBar() {
             </li>
             <li>
               <Link className={style.item} href={"#"}>
-                Cart [0]
+                Cart <span className={style.dif}>[</span> 0{" "}
+                <span className={style.dif}>]</span>
               </Link>
             </li>
           </ul>
