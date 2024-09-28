@@ -2,13 +2,6 @@ import Link from "next/link";
 import style from "../styles/NavBar.module.css";
 
 function NavBar() {
-  enum tabs {
-    Home,
-    About,
-    Pages,
-    Packages,
-    Contact,
-  }
   return (
     <>
       <nav className={style.container}>
