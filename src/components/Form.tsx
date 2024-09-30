@@ -34,7 +34,7 @@ function Form() {
           <>
             <p className={style.title}>We have received your message.</p>
             <p className={style.title} style={{ marginTop: "1rem" }}>
-              We'll contact you shortly.
+              We will contact you shortly.
             </p>
           </>
         ) : (
