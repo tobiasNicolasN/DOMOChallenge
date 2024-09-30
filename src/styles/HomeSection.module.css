@@ -1,33 +1,28 @@
 .container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-
 @media only screen and (min-width: 300px) {
-    .container{
+  .container {
     flex-direction: column;
   }
 }
 
 @media only screen and (min-width: 600px) {
-    .container{
+  .container {
     flex-direction: column;
   }
 }
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-      .container{
-        flex-direction: column;
-    }
-}
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    .container{
-        flex-direction: row;
-    }
+@media only screen and (min-width: 768px) {
+  .container {
+    flex-direction: column;
   }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    flex-direction: row;
+  }
+}

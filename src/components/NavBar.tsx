@@ -66,7 +66,7 @@ function NavBar() {
       <button className={style.button}>Free Consultation →</button>
 
       {/* Mobile Menu Toggle */}
-      <button className={style.menu} onClick={() => setOpenMenu(!openMenu)}>
+      <button aria-label="open-menu" className={style.menu} onClick={() => setOpenMenu(!openMenu)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 100 80"

@@ -7,7 +7,7 @@
   width: 50%;
 }
 
-.info{
+.info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,7 +37,7 @@
   border: transparent;
   background-color: #fdfeff;
   border-radius: 55px;
-  padding: 1rem 1.5rem; 
+  padding: 1rem 1.5rem;
   width: fit-content;
   color: #022b41;
 }
@@ -68,44 +68,43 @@
 }
 
 @media only screen and (min-width: 300px) {
-  .container{
-  width: 100%;
-  height: 90vh;
-}
+  .container {
+    width: 100%;
+    height: 90vh;
+  }
 
-.info{
-  width: 90%;
-}
-.h1{
-  font-size: 2.8rem;
-}
+  .info {
+    width: 90%;
+  }
+  .h1 {
+    font-size: 2.8rem;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-  .container{
-  width: 100%;
-}
+  .container {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .container{
-      width: 100%;
+  .container {
+    width: 100%;
   }
 
-  .info{
+  .info {
     width: 80%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .container{
-      flex-direction: row;
+  .container {
+    flex-direction: row;
   }
-  .info{
+  .info {
     width: 60%;
   }
-  .h1{
-  font-size: 3.2rem;
+  .h1 {
+    font-size: 3.2rem;
   }
-  
 }

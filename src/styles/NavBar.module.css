@@ -73,7 +73,7 @@
   background-color: #022b41;
   color: #fdfeff;
   box-shadow: 0px 5px 15px rgba(44, 68, 90, 0.5);
-}  
+}
 
 .mobileMenu {
   position: absolute;
@@ -104,7 +104,7 @@
   text-decoration: none;
 }
 
-.menu{
+.menu {
   margin-left: auto;
   background: transparent;
   border: none;
@@ -114,38 +114,37 @@
   .navBar,
   .button {
     display: none;
-  }  
-}  
+  }
+}
 
 @media only screen and (min-width: 600px) {
   .navBar,
   .button {
     display: none;
-  }  
-}  
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .navBar,
   .button {
     display: none;
-  }  
+  }
 
-  .container{
+  .container {
     width: 80%;
-  }  
-}  
+  }
+}
 
 @media only screen and (min-width: 1200px) {
   .navBar {
     display: flex;
-  }  
+  }
 
   .button {
     display: block;
-  }  
+  }
 
-  .menu{
+  .menu {
     display: none;
-  }  
-}  
-
+  }
+}
