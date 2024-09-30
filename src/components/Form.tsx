@@ -21,7 +21,7 @@ function Form() {
 
   const onSubmit: SubmitHandler<IFormData> = (data) => {
     setSending(true);
-    console.log(data)
+    console.log(data);
     setTimeout(() => {
       setSended(true);
     }, 2000);
@@ -33,7 +33,9 @@ function Form() {
         {sended ? (
           <>
             <p className={style.title}>We have received your message.</p>
-            <p className={style.title} style={{marginTop: "1rem"}}>We'll contact you shortly!</p>
+            <p className={style.title} style={{ marginTop: "1rem" }}>
+              We'll contact you shortly.
+            </p>
           </>
         ) : (
           <>
