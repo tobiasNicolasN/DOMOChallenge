@@ -94,6 +94,15 @@
   color: #fdfeff;
 }
 
+.error{
+  color:red;
+}
+
+.errorArea{
+  margin-top: 0.5rem;
+  color:red;
+}
+
 /* Ajustes responsivos */
 @media only screen and (min-width: 300px) {
   .container {
@@ -107,7 +116,7 @@
   .form {
     margin-top: 4rem;
     margin-bottom: 4rem;
-    width: 80%;
+    width: 90%;
   }
 
   .inputs{
@@ -143,7 +152,9 @@
     font-size: 2rem; /* Tamaño base adecuado para pantallas más grandes */
   }
 
-
+  .form {
+    width: 80%;
+  }
 
   .input, .textArea, .submitButton {
     font-size: 1.1rem;

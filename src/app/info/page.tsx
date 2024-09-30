@@ -20,8 +20,7 @@ function page() {
           </li>
           <li className={style.item}>
             Manejo de formularios: Implementé el manejo de formularios con React
-            Hook Form, lo cual permitió una validación eficiente y envío de
-            datos al backend para almacenarlos en una base de datos MongoDB.
+            Hook Form, lo cual permitió una validación eficiente y crear la simulación de lo que seria un correo enviado.
           </li>
           <li className={style.item}>
             Rutas dinámicas con Next.js Router: Añadí rutas dinámicas utilizando
@@ -34,7 +33,7 @@ function page() {
             original.
           </li>
           <li className={style.item}>
-            Optimización de imágenes: Convertí las imágenes a SVG y las optimicé
+            Optimización de imágenes: Convertí la imágen a SVG y la optimicé
             para mejorar el rendimiento sin sacrificar la calidad visual.
           </li>
           <li className={style.item}>
@@ -53,6 +52,7 @@ function page() {
         </p>
         <p className={style.p}>Mi portfolio: <Link href={"https://www.tobiasnicolasn.com/"} target="_blank">tobiasnicolasn.com</Link></p>
         <p className={style.p}>Correo: tobias.nicolas001@gmail.com</p>
+        <p className={style.p}>Telefono: +54 9 11 3798-8966</p>
         <Link href={"/"} className={style.button}>Volver a la web</Link>
       </main>
     </div>
