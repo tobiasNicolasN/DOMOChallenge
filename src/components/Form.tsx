@@ -21,6 +21,7 @@ function Form() {
 
   const onSubmit: SubmitHandler<IFormData> = (data) => {
     setSending(true);
+    console.log(data)
     setTimeout(() => {
       setSended(true);
     }, 2000);
