@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DOMO Challenge
 
-## Getting Started
+I decided to tackle the challenge corresponding to image number 4 in [Domo Frontend Challenge](https://domofrontendchallenge.netlify.app/), using **TypeScript** and **Next.js** with a focus on maximizing performance. My main goal was to achieve a perfect score of 100 across all Lighthouse metrics, which I successfully accomplished by making the following key decisions:
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Key Decisions and Technologies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**: I utilized Next.js to showcase my adaptability to the latest technologies while taking advantage of its performance optimization features.
+- **TypeScript**: I chose TypeScript to maintain cleaner, more debuggable code and reduce errors during development.
+- **Form Handling**: I implemented form handling using **React Hook Form**, allowing efficient validation and creating a simulation of what a form submission would look like.
+- **Dynamic Routing with Next.js Router**: I added dynamic routes using Next.js Router to provide smooth navigation and improve the user experience.
+- **Minimalist Animations**: I implemented subtle hover animations for buttons while maintaining the minimalist aesthetic of the original design.
+- **Image Optimization**: I converted the image to **SVG** and optimized it for better performance without sacrificing visual quality.
+- **Component Distribution**: The code is organized into reusable components, making it easier to maintain and update in the future.
+- **Deployed on Railway**: The application is deployed on my **Railway** service, ensuring fast and efficient delivery.
